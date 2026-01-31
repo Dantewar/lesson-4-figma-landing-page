@@ -86,3 +86,17 @@ body {
   max-width: 100%;
   height: auto;
 }
+/* ===== HOVER / FOCUS (interaktivt) ===== */
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-primary:focus-visible {
+  outline: 3px solid rgba(45, 127, 249, 0.35);
+  outline-offset: 3px;
+}
+
